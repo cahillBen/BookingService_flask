@@ -1,0 +1,78 @@
+Login/Register page $ (Admin) $
+
+Auto Login if Cookie Present - If two accounts, most recent $
+
+Greeting $, Previously viewed offers on "sale" $
+
+Web page Search type of holiday $
+	location
+	activities
+
+TIMETABLE $
+
+User Icon $
+
+Day with date
+
+Order by radios $
+
+Comment Section in location $
+
+Admin only sections restrictions $
+
+Displays results of selected destinations %
+	
+	Name, location, description, rating
+
+
+Location pages %
+	info
+	Comment section 
+
+Cancel booking option $
+
+Booking View shows place names $
+
+overall rating is avg of comments % $
+
+Cookies record:
+	Previously viewed $
+	Username $
+
+Database record:
+	users(id(relation users:bookings), name, username, password), bookings(dateStart, dateEnd, Price, Paid), activities(holiday_id, activity), activityBooking(booking_id,activity,time,date)
+
+add images to location page $
+
+Error page $
+
+(Admin)
+
+Search all Destinations $
+
+Add/Delete Destinations $
+
+Update Prices $
+
+if error in database, warning image appears $
+	image links to error message and database entries
+	errors taken from form.input.errors into database X
+
+update table system $
+
+auto search of database, correcting paid attribute when date has past $
+
+Database view, variable of database name passed in in URL $
+	Displays Database
+	click row and update, input boxes in table
+
+Toolbar DELETE comments, locations etc all options in a table $
+
+FIXES 
+consistent variable names, ids user/location $
+remove extra db.commit()'s $
+Change filenames $
+add alts $
+add titles $
+Separate Manual Update $
+Error Checking $
